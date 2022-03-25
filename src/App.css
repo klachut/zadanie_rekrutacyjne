@@ -1,0 +1,146 @@
+.inputName{
+  display: flex;
+  outline: none;
+  border-radius: 5px;
+  border-width: 1px;
+  justify-content: flex-start;
+
+}
+
+.input{
+  width: 80%;
+  border-radius: 5px;
+  margin-right: 20px;
+  padding: 5px;
+}
+
+.button{
+  background-color: #007bff;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+.container{
+  padding: 20px;
+  display: flex;
+}
+
+.p1{
+  padding: 5px;
+  width: 40%;
+
+
+}
+
+.p2{
+
+  padding: 5px;
+  width: 60%;
+
+}
+
+.header{
+  flex: 1;
+  padding: 5px;
+  margin: auto;
+}
+
+/*========================================================================*/
+.goodResponse{
+  display: flex;
+  background-color: #d4edda;
+  padding: 10px;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  width: 91%;
+
+}
+
+.success{
+  background-color: #d4edda;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: xxx-large;
+  font-weight: bold;
+  color: #2d6a3a;
+  margin-bottom: -20px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  width: 91%;
+}
+
+.items{
+  align-items: center;
+  margin-right: 20%;
+  color: #2d6a3a;
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: -10px;
+}
+
+.itemsNoBold{
+  font-weight: normal;
+  color: #2d6a3a;
+  font-size: large;
+  margin-bottom: 5%;
+}
+
+
+
+.badResponse{
+  background-color: #f8d7da;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+  margin-bottom: 0;
+  width: 90%;
+}
+
+.error{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: xx-large;
+  color: #721c25;
+}
+.error-2{
+
+  margin-bottom: 0;
+  font-size: large;
+  color: #721c25;
+}
+
+.history{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-right: 10%;
+
+}
+
+.line{
+  width: 93%;
+  justify-content: flex-start;
+  margin-left:0;
+  margin-top: 0;
+  height: 1px;
+}
+
+.historyItems{
+  margin-right: 20%;
+  margin-top: 3%;
+  font-weight: bold;
+  width: 25%;
+}
+
+.historyItemsNoBold{
+  margin-right: 16%;
+  font-size: 15px;
+  margin-top: 0;
+  width: 25%;
+}
