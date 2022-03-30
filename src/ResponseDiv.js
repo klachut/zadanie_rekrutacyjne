@@ -9,7 +9,9 @@ class ResponseDiv extends Component {
         nation: ''
     }
 
+
     render() {
+        {/*Sprawdzanie poprawności pobranych danych, co determinuje widok odpowiedzi*/}
         if(this.props.isValid === true ){
           return (
             <div>

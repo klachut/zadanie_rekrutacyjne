@@ -2,8 +2,8 @@ import {Component} from "react";
 import './App.css';
 
 class History extends Component {
-    render() {
 
+    render() {
         return (
             <div >
                 <div className="history">
