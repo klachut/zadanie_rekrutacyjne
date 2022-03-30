@@ -2,7 +2,7 @@ import axios from 'axios'
 import {Component} from "react";
 import ResponseDiv from "./ResponseDiv"
 import History from "./History"
-import './App.css';
+import './MainPage.css';
 import {ThreeCircles} from 'react-loader-spinner';
 
 
@@ -12,7 +12,7 @@ import {ThreeCircles} from 'react-loader-spinner';
 let today = new Date(),
     date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
 
-class App extends Component {
+class MainPage extends Component {
 
 
     /**
@@ -309,4 +309,4 @@ class App extends Component {
 
 }
 
-export default App;
+export default MainPage;

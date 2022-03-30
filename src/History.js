@@ -1,5 +1,5 @@
 import {Component} from "react";
-import './App.css';
+import './MainPage.css';
 
 class History extends Component {
 
